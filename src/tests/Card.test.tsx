@@ -14,9 +14,8 @@ describe('Card', () => {
     expect(screen.getByAltText('Test Title')).toHaveAttribute('src', 'test-image.jpg');
   });
 
-  it('renders a link if provided', () => {
-    render(<Card title="Test Title" text="Test Text" link="https://example.com" />);
-    expect(screen.getByRole('link', { name: /learn more/i })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /learn more/i })).toHaveAttribute('href', 'https://example.com');
+  it('renders a date if provided', () => {
+    render(<Card title="Test Title" text="Test Text" image="test-image.jpg" date="2023-10-26" />);
+    expect(screen.getByText('2023-10-26')).toBeInTheDocument();
   });
 });

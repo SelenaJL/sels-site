@@ -1,8 +1,9 @@
 :root {
-  --pink: #ffafcc;
-  --orange: #ffc8a8;
-  --yellow: #fff0a8;
+  --pink: #ff5895;
+  --orange: #ffcf95;
+  --yellow: #ffefb4;
   --text-color: #333;
+  --pill-color: rgba(255, 255, 255, 0.7);
   --background-color: #fff;
 }
 

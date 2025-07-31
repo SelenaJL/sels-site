@@ -1,5 +1,7 @@
 .card {
-  background-color: var(--orange);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--yellow);
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -10,15 +12,39 @@
   transform: translateY(-5px);
 }
 
-.image {
+.imageContainer {
   width: 100%;
   height: 200px;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 4px;
 }
 
-.title {
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   margin-top: 1rem;
+}
+
+.date {
+  background-color: var(--pill-color);
+  padding: 0.2em 0.6em;
+  border-radius: 1em;
+  font-size: 0.8rem;
+  color: var(--text-color);
+  white-space: nowrap;
+}
+
+.title {
+  margin: 0;
   font-size: 1.25rem;
 }
 

@@ -1,23 +1,27 @@
 import { Card } from '../components/Card';
+import { MainCard } from '../components/MainCard';
 import styles from './Page.module.css';
 
 interface PageProps {
-  title: string;
-  items: {
+  cardsContent: {
     image?: string;
     title: string;
     text: string;
     link?: string;
+    date?: string;
   }[];
+  mainCardContent?: { title: string; text: string };
 }
 
-export const Page = ({ title, items }: PageProps) => {
+export const Page = ({ cardsContent, mainCardContent }: PageProps) => {
   return (
     <main className={styles.page}>
-      <h1 className={styles.title}>{title}</h1>
+      {mainCardContent && (
+        <MainCard title={mainCardContent.title} text={mainCardContent.text} buttons={mainCardContent.buttons} />
+      )}
       <div className={styles.grid}>
-        {items.map((item, index) => (
-          <Card key={index} {...item} />
+        {cardsContent.map((card, index) => (
+          <Card key={index} {...card} />
         ))}
       </div>
     </main>

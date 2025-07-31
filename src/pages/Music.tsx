@@ -1,6 +1,6 @@
 import { Page } from './Page';
 
-const items = [
+const cardsContent = [
   {
     title: 'Card 1',
     text: 'This is a card that I can later add content to.',
@@ -15,4 +15,4 @@ const items = [
   },
 ];
 
-export const Music = () => <Page title="Music" items={items} />;
+export const Music = () => <Page cardsContent={cardsContent} />;

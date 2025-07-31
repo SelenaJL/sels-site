@@ -9,6 +9,7 @@
 .title {
   font-size: 1.5rem;
   font-weight: bold;
+  color: var(--background-color);
 }
 
 .navList {
@@ -21,7 +22,7 @@
 
 .navLink {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--background-color);
   font-weight: 500;
   transition: color 0.2s ease-in-out;
 }

@@ -1,6 +1,6 @@
 import { Page } from './Page';
 
-const items = [
+const cardsContent = [
   {
     title: 'Card 1',
     text: 'This is a card that I can later add content to.',
@@ -15,4 +15,4 @@ const items = [
   },
 ];
 
-export const VolunteerExperience = () => <Page title="Volunteer Experience" items={items} />;
+export const VolunteerExperience = () => <Page cardsContent={cardsContent} />;

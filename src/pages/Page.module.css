@@ -2,12 +2,6 @@
   padding: 2rem;
 }
 
-.title {
-  text-align: center;
-  margin-bottom: 2rem;
-  color: var(--pink);
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
