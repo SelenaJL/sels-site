@@ -10,6 +10,20 @@
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--background-color);
+  white-space: nowrap;
+}
+
+.hamburger {
+  display: none; /* Hidden by default on larger screens */
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--background-color);
+}
+
+.nav {
+  display: flex;
 }
 
 .navList {
@@ -25,9 +39,41 @@
   color: var(--background-color);
   font-weight: 500;
   transition: color 0.2s ease-in-out;
+  white-space: nowrap;
 }
 
 .navLink:hover,
 .active {
   color: var(--yellow);
+}
+
+@media (max-width: 1024px) {
+  .hamburger {
+    display: block; /* Show hamburger on smaller screens */
+  }
+
+  .nav {
+    display: none; /* Hide nav by default on smaller screens */
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px; /* Adjust based on topbar height */
+    left: 0;
+    background-color: var(--pink);
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav.open {
+    display: flex; /* Show nav when open */
+  }
+
+  .navList {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navList li {
+    margin: 0.5rem 0;
+  }
 }

@@ -10,7 +10,7 @@ interface PageProps {
     link?: string;
     date?: string;
   }[];
-  mainCardContent?: { title: string; text: string };
+  mainCardContent?: { title: string; text: string; buttons?: { logo: string; text: string; link: string }[] };
 }
 
 export const Page = ({ cardsContent, mainCardContent }: PageProps) => {
