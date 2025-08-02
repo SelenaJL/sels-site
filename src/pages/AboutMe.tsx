@@ -1,14 +1,15 @@
 import { Page } from './Page';
 
 const mainCardContent = {
-  title: 'Welcome to My Personal Website!',
-  text: 'Learn more about me, my work, and my passions.',
+  text: 'Learn more about me, my work, and my passions. Learn more about me, my work, and my passions. Learn more about me, my work, and my passions. Learn more about me, my work, and my passions.',
+  image: '/cat-1.png',
 };
 
 const cardsContent = [
   {
     title: 'Card 1',
     text: 'This is a card that I can later add content to.',
+    button: { logo: '/instagram-logo.png', text: '@selsfosterdiaries', link: 'https://www.instagram.com/selsfosterdiaries/' },
   },
   {
     title: 'Card 2',

@@ -1,11 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { TopBar } from './components/TopBar';
 import { AboutMe } from './pages/AboutMe';
-import { WorkExperience } from './pages/WorkExperience';
-import { VolunteerExperience } from './pages/VolunteerExperience';
-import { AnimalRescue } from './pages/AnimalRescue';
+import { Education } from './pages/Education';
+import { Work } from './pages/Work';
+import { Volunteer } from './pages/Volunteer';
+import { Animals } from './pages/Animals';
+import { Charity } from './pages/Charity';
 import { Music } from './pages/Music';
-import { EventPlanning } from './pages/EventPlanning';
+import { Events } from './pages/Events';
 import './styles/main.css';
 
 function App() {
@@ -14,11 +16,13 @@ function App() {
       <TopBar />
       <Routes>
         <Route path="/" element={<AboutMe />} />
-        <Route path="/work-experience" element={<WorkExperience />} />
-        <Route path="/volunteer-experience" element={<VolunteerExperience />} />
-        <Route path="/animal-rescue" element={<AnimalRescue />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/volunteer" element={<Volunteer />} />
+        <Route path="/animals" element={<Animals />} />
+        <Route path="/charity" element={<Charity />} />
         <Route path="/music" element={<Music />} />
-        <Route path="/event-planning" element={<EventPlanning />} />
+        <Route path="/events" element={<Events />} />
       </Routes>
     </Router>
   );

@@ -18,4 +18,10 @@ describe('Card', () => {
     render(<Card title="Test Title" text="Test Text" image="test-image.jpg" date="2023-10-26" />);
     expect(screen.getByText('2023-10-26')).toBeInTheDocument();
   });
+
+  it('renders a button if provided', () => {
+    const button = { logo: 'logo.png', text: 'Button', link: 'https://example.com' };
+    render(<Card title="Test Title" text="Test Text" button={button} />);
+    expect(screen.getByText('Button')).toBeInTheDocument();
+  });
 });

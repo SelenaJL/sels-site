@@ -1,5 +1,10 @@
 import { Page } from './Page';
 
+const mainCardContent = {
+  title: 'Work Experience',
+  text: 'Learn more about me, my work, and my passions.',
+};
+
 const cardsContent = [
   {
     title: 'Card 1',
@@ -15,4 +20,4 @@ const cardsContent = [
   },
 ];
 
-export const WorkExperience = () => <Page cardsContent={cardsContent} />;
+export const Work = () => <Page mainCardContent={mainCardContent} cardsContent={cardsContent} />;

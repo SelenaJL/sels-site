@@ -113,4 +113,4 @@ const cardsContent = [
   },
 ];
 
-export const AnimalRescue = () => <Page mainCardContent={mainCardContent} cardsContent={cardsContent} />;
+export const Animals = () => <Page mainCardContent={mainCardContent} cardsContent={cardsContent} />;

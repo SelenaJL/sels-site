@@ -11,7 +11,13 @@ describe('TopBar', () => {
     );
 
     expect(screen.getByText('Selena Lourenco')).toBeInTheDocument();
-    expect(screen.getByText('About Me')).toBeInTheDocument();
-    expect(screen.getByText('Work Experience')).toBeInTheDocument();
+    expect(screen.getByText('About')).toBeInTheDocument();
+    expect(screen.getByText('Education')).toBeInTheDocument();
+    expect(screen.getByText('Work')).toBeInTheDocument();
+    expect(screen.getByText('Volunteer')).toBeInTheDocument();
+    expect(screen.getByText('Animals')).toBeInTheDocument();
+    expect(screen.getByText('Charity')).toBeInTheDocument();
+    expect(screen.getByText('Music')).toBeInTheDocument();
+    expect(screen.getByText('Events')).toBeInTheDocument();
   });
 });

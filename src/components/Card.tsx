@@ -1,13 +1,15 @@
-import styles from './Card.module.css';
+import { Button } from './Button';
+import styles from '../styles/Card.module.css';
 
 interface CardProps {
-  image?: string;
   title: string;
   text: string;
+  image?: string;
   date?: string;
+  button?: { logo: string; text: string; link: string };
 }
 
-export const Card = ({ image, title, text, date }: CardProps) => {
+export const Card = ({ title, text, image, date, button }: CardProps) => {
   return (
     <div className={styles.card}>
       {image && (
@@ -20,6 +22,7 @@ export const Card = ({ image, title, text, date }: CardProps) => {
         {date && <span className={styles.date}>{date}</span>}
       </div>
       <p className={styles.text}>{text}</p>
+      {button && <Button {...button} /> }
     </div>
   );
 };

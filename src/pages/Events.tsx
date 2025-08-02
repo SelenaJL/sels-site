@@ -1,7 +1,7 @@
 import { Page } from './Page';
 
 const mainCardContent = {
-  title: 'Music',
+  title: 'Event Planning',
   text: 'Learn more about me, my work, and my passions.',
 };
 
@@ -20,4 +20,4 @@ const cardsContent = [
   },
 ];
 
-export const Music = () => <Page mainCardContent={mainCardContent} cardsContent={cardsContent} />;
+export const Events = () => <Page mainCardContent={mainCardContent} cardsContent={cardsContent} />;

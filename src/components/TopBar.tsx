@@ -1,14 +1,16 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import styles from './TopBar.module.css';
+import styles from '../styles/TopBar.module.css';
 
 const links = [
-  { to: '/', text: 'About Me' },
-  { to: '/work-experience', text: 'Work Experience' },
-  { to: '/volunteer-experience', text: 'Volunteer Experience' },
-  { to: '/animal-rescue', text: 'Animal Rescue' },
+  { to: '/', text: 'About' },
+  { to: '/education', text: 'Education' },
+  { to: '/work', text: 'Work' },
+  { to: '/volunteer', text: 'Volunteer' },
+  { to: '/animals', text: 'Animals' },
+  { to: '/charity', text: 'Charity' },
   { to: '/music', text: 'Music' },
-  { to: '/event-planning', text: 'Event Planning' },
+  { to: '/events', text: 'Events' },
 ];
 
 export const TopBar = () => {
