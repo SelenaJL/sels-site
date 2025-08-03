@@ -19,7 +19,7 @@ const mainCardContent = {
   I hope you enjoy learning about me and reach out so I can have the honour of learning about you too.`,
   image: '/profile.png',
   buttons: [
-    { logo: '/logos/linkedin.png', text: 'Connect with me on LinkedIn', link: 'https://www.linkedin.com/in/selena-lourenco/' },
+    { logo: '/logos/linkedin.png', text: 'Connect with me', link: 'https://www.linkedin.com/in/selena-lourenco/' },
   ],
 };
 

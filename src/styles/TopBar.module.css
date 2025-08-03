@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 16rem;
   background-color: var(--pink);
 }
 
 .title {
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--background-color);
+  color: var(--white);
   white-space: nowrap;
 }
 
@@ -19,7 +19,7 @@
   background: none;
   border: none;
   cursor: pointer;
-  color: var(--background-color);
+  color: var(--white);
 }
 
 .nav {
@@ -36,7 +36,7 @@
 
 .navLink {
   text-decoration: none;
-  color: var(--background-color);
+  color: var(--white);
   font-weight: 500;
   transition: color 0.2s ease-in-out;
   white-space: nowrap;
@@ -44,10 +44,15 @@
 
 .navLink:hover,
 .active {
-  color: var(--yellow);
+  color: #ffdf97; /* var(--medium-yellow) over white */
+  font-weight: bold;
 }
 
-@media (max-width: 886px) {
+@media (max-width: 1280px) {
+  .topbar {
+    padding: 1rem 2rem;
+  }
+
   .hamburger {
     display: block; /* Show hamburger on smaller screens */
   }

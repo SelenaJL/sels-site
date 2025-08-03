@@ -4,7 +4,7 @@ const mainCardContent = {
   title: 'Side Projects',
   text: 'TBA',
   buttons: [
-    { logo: '/logos/github.png', text: 'See what I\'ve built on GitHub', link: 'https://github.com/SelenaJL' },
+    { logo: '/logos/github.png', text: 'See what I\'ve built', link: 'https://github.com/SelenaJL' },
   ],
 };
 

@@ -1,5 +1,5 @@
 .mainCard {
-  background-color: var(--orange);
+  background-color: var(--medium-yellow);;
   border-radius: 8px;
   padding: 1.5rem;
   margin-bottom: 2rem;
@@ -9,14 +9,16 @@
 .title {
   font-size: 2rem;
   margin: 0;
-  color: var(--text-color);
+  color: var(--grey);
   text-align: center;
 }
 
 .contentContainer {
   display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
+  /* grid-template-columns: 1fr; */
+  grid-template-columns: auto 1fr;
+  /* align-items: center; */
+  align-items: flex-start;
   gap: 1.5rem;
 }
 
@@ -46,12 +48,12 @@
 .text {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: var(--text-color);
+  color: var(--grey);
   margin: 0;
   text-align: center;
 }
 
-@media (min-width: 886px) {
+/* @media (min-width: 1280px) {
   .contentContainer {
     grid-template-columns: auto 1fr;
     align-items: flex-start;
@@ -60,12 +62,4 @@
   .image {
     margin: 0;
   }
-
-  .textAndButtonContainer {
-    align-items: center;
-  }
-
-  .buttonContainer {
-    justify-content: center;
-  }
-}
+} */

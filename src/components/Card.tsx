@@ -13,11 +13,7 @@ export const Card = ({ title, text, image, date, button }: CardProps) => {
   const headerContentClasses = date ? [styles.headerContent] : [];
   if (image) headerContentClasses.push(styles.withImage);
 
-  const titleClasses = [styles.title];
-  if (!date) titleClasses.push(styles.withoutDate);
-
   const textClasses = [styles.text];
-  if (!date) textClasses.push(styles.withoutDate);
   if (button) textClasses.push(styles.withButton);
 
   return (
@@ -28,7 +24,7 @@ export const Card = ({ title, text, image, date, button }: CardProps) => {
         </div>
       )}
       <div className={headerContentClasses.join(' ')}>
-        <h3 className={titleClasses.join(' ')}>{title}</h3>
+        <h3 className={styles.title}>{title}</h3>
         {date && <span className={styles.date}>{date}</span>}
       </div>
       <p className={textClasses.join(' ')}>{text}</p>

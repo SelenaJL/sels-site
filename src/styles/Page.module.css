@@ -1,5 +1,11 @@
 .page {
-  padding: 2rem;
+  padding: 2rem 16rem;
+}
+
+@media (max-width: 1280px) {
+  .page {
+    padding: 2rem;
+  }
 }
 
 .grid {

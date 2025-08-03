@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  background-color: var(--yellow);
+  background-color: var(--light-yellow);
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -43,30 +43,22 @@
 }
 
 .date {
-  background-color: var(--pill-color);
+  background-color: var(--light-white);
   padding: 0.2em 0.6em;
   border-radius: 1em;
   font-size: 0.8rem;
-  color: var(--text-color);
+  color: var(--grey);
   white-space: nowrap;
 }
 
 .title {
   margin: 0;
-  font-size: 1.25rem;
-}
-
-.title.withoutDate {
-  text-align: center;
+  font-size: 1.5rem;
 }
 
 .text {
   margin: 0.5rem 0 0 0;
-  color: var(--text-color);
-}
-
-.text.withoutDate {
-  text-align: center;
+  color: var(--grey);
 }
 
 .text.withButton {
