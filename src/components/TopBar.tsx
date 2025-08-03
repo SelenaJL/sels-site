@@ -8,9 +8,8 @@ const links = [
   { to: '/work', text: 'Work' },
   { to: '/volunteer', text: 'Volunteer' },
   { to: '/animals', text: 'Animals' },
-  { to: '/charity', text: 'Charity' },
-  { to: '/music', text: 'Music' },
-  { to: '/events', text: 'Events' },
+  { to: '/hobbies', text: 'Hobbies' },
+  { to: '/projects', text: 'Projects' },
 ];
 
 export const TopBar = () => {

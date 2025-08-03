@@ -4,7 +4,7 @@ import styles from '../styles/Page.module.css';
 
 interface PageProps {
   mainCardContent?: { 
-    title?: string;
+    title: string;
     text: string;
     image?: string;
     buttons?: { logo: string; text: string; link: string }[] };

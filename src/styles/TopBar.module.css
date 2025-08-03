@@ -47,7 +47,7 @@
   color: var(--yellow);
 }
 
-@media (max-width: 885px) {
+@media (max-width: 886px) {
   .hamburger {
     display: block; /* Show hamburger on smaller screens */
   }

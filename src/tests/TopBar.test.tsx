@@ -16,8 +16,7 @@ describe('TopBar', () => {
     expect(screen.getByText('Work')).toBeInTheDocument();
     expect(screen.getByText('Volunteer')).toBeInTheDocument();
     expect(screen.getByText('Animals')).toBeInTheDocument();
-    expect(screen.getByText('Charity')).toBeInTheDocument();
-    expect(screen.getByText('Music')).toBeInTheDocument();
-    expect(screen.getByText('Events')).toBeInTheDocument();
+    expect(screen.getByText('Hobbies')).toBeInTheDocument();
+    expect(screen.getByText('Projects')).toBeInTheDocument();
   });
 });

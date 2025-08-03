@@ -6,6 +6,7 @@
   padding: 1.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;
+  min-width: fit-content;
 }
 
 .card:hover {
@@ -20,6 +21,10 @@
   margin-bottom: 0.5rem;
 }
 
+.buttonContainer {  
+  margin-top: auto; 
+}
+
 .image {
   width: 100%;
   height: 100%;
@@ -31,6 +36,9 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.headerContent.withImage {
   margin-top: 1rem;
 }
 
@@ -48,10 +56,19 @@
   font-size: 1.25rem;
 }
 
+.title.withoutDate {
+  text-align: center;
+}
+
 .text {
-  margin-top: 0.5rem;
+  margin: 0.5rem 0 0 0;
   color: var(--text-color);
 }
 
+.text.withoutDate {
+  text-align: center;
+}
 
-
+.text.withButton {
+  margin-bottom: 1.5rem;
+}

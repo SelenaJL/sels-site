@@ -2,21 +2,27 @@ import { Page } from './Page';
 
 const mainCardContent = {
   title: 'Education',
-  text: 'Learn more about me, my work, and my passions.',
+  text: 'TBA',
 };
 
 const cardsContent = [
   {
     title: 'Card 1',
-    text: 'This is a card that I can later add content to.',
+    text: 'TBA',
+    image: '/cats/cat-1.png',
+    date: 'Aug 2025',
   },
   {
     title: 'Card 2',
-    text: 'This is a card that I can later add content to.',
+    text: 'TBA',
+    image: '/cats/cat-1.png',
+    date: 'Aug 2025',
   },
   {
     title: 'Card 3',
-    text: 'This is a card that I can later add content to.',
+    text: 'TBA',
+    image: '/cats/cat-1.png',
+    date: 'Aug 2025',
   },
 ];
 

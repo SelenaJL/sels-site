@@ -10,6 +10,16 @@ interface CardProps {
 }
 
 export const Card = ({ title, text, image, date, button }: CardProps) => {
+  const headerContentClasses = date ? [styles.headerContent] : [];
+  if (image) headerContentClasses.push(styles.withImage);
+
+  const titleClasses = [styles.title];
+  if (!date) titleClasses.push(styles.withoutDate);
+
+  const textClasses = [styles.text];
+  if (!date) textClasses.push(styles.withoutDate);
+  if (button) textClasses.push(styles.withButton);
+
   return (
     <div className={styles.card}>
       {image && (
@@ -17,12 +27,16 @@ export const Card = ({ title, text, image, date, button }: CardProps) => {
           <img src={image} alt={title} className={styles.image} />
         </div>
       )}
-      <div className={styles.headerContent}>
-        <h3 className={styles.title}>{title}</h3>
+      <div className={headerContentClasses.join(' ')}>
+        <h3 className={titleClasses.join(' ')}>{title}</h3>
         {date && <span className={styles.date}>{date}</span>}
       </div>
-      <p className={styles.text}>{text}</p>
-      {button && <Button {...button} /> }
+      <p className={textClasses.join(' ')}>{text}</p>
+      {button && (
+        <div className={styles.buttonContainer}>
+          <Button {...button} />
+        </div>
+      )}
     </div>
   );
 };

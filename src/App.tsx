@@ -5,9 +5,8 @@ import { Education } from './pages/Education';
 import { Work } from './pages/Work';
 import { Volunteer } from './pages/Volunteer';
 import { Animals } from './pages/Animals';
-import { Charity } from './pages/Charity';
-import { Music } from './pages/Music';
-import { Events } from './pages/Events';
+import { Hobbies } from './pages/Hobbies';
+import { Projects } from './pages/Projects';
 import './styles/main.css';
 
 function App() {
@@ -20,9 +19,8 @@ function App() {
         <Route path="/work" element={<Work />} />
         <Route path="/volunteer" element={<Volunteer />} />
         <Route path="/animals" element={<Animals />} />
-        <Route path="/charity" element={<Charity />} />
-        <Route path="/music" element={<Music />} />
-        <Route path="/events" element={<Events />} />
+        <Route path="/hobbies" element={<Hobbies />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </Router>
   );
