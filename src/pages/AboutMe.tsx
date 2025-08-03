@@ -17,7 +17,7 @@ const mainCardContent = {
   I've always welcomed tools for self-reflection because I believe that "to be loved is to be known" so the truest way to love myself is to continuously learn about myself. \
   From my education and work experience, to causes I volunteer for, to hobbies and side projects that spark my joy... it's all here! \
   I hope you enjoy learning about me and reach out so I can have the honour of learning about you too.`,
-  image: '/profile.png',
+  image: '/memories/profile.jpg',
   buttons: [
     { logo: '/logos/linkedin.png', text: 'Connect with me', link: 'https://www.linkedin.com/in/selena-lourenco/' },
   ],
