@@ -11,7 +11,7 @@ interface MainCardProps {
 export const MainCard = ({ title, text, image, buttons }: MainCardProps) => {
   return (
     <div className={styles.mainCard}>
-      <div className={styles.contentContainer}>
+      <div className={image ? styles.contentContainer : ''}>
         {image && <img src={image} alt={title} className={styles.image} />}
         <div className={styles.textAndButtonContainer}>
           <h2 className={styles.title}>{title}</h2>
