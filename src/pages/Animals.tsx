@@ -8,9 +8,9 @@ const mainCardContent = {
   my Instagram account. If you have questions about cats or contributing to your local rescues, I\'d be delighted to chat.',
   buttons: [
     { logo: '/logos/instagram.png', text: '@selsfosterdiaries', link: 'https://www.instagram.com/selsfosterdiaries/' },
-    { logo: '/logos/team-cat.png', text: 'More about TEAM Cat', link: 'https://teamcatrescue.com/' },
-    { logo: '/logos/pet-patrol.png', text: 'More about Pet Patrol', link: 'https://www.petpatrol.ca/' },
-    { logo: '/logos/ava.png', text: 'More about AVA', link: 'https://www.avacats.org/' },
+    { logo: '/logos/team-cat.png', text: 'Learn about TEAM', link: 'https://teamcatrescue.com/' },
+    { logo: '/logos/pet-patrol.png', text: 'Learn about Pet Patrol', link: 'https://www.petpatrol.ca/' },
+    { logo: '/logos/ava.png', text: 'Learn about AVA', link: 'https://www.avacats.org/' },
   ],
 };
 

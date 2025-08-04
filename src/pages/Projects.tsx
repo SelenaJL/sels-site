@@ -1,7 +1,7 @@
 import { Page } from './Page';
 
 const mainCardContent = {
-  title: 'Side Projects',
+  title: 'Projects',
   text: 'TBA',
   buttons: [
     { logo: '/logos/github.png', text: 'See what I\'ve built', link: 'https://github.com/SelenaJL' },

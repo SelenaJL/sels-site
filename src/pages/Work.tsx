@@ -2,30 +2,61 @@ import { Page } from './Page';
 
 const mainCardContent = {
   title: 'Work Experience',
-  text: 'TBA',
+  text: 'Thanks to the University of Waterloo\'c co-op program, I was able to experience a variety of roles, workplaces, and tech stacks early on in my career. \
+  From startups to corporations, healthcare to e-commerce, and Toronto to Sillicon Valley... My goal was to build a strong foundation as a software developer with confident communication and leadership skills. \
+  I then spent 5 years at Shopify where I used these skills to champion projects which involved faciliating Agile ceremonies and collaborating with my product/UX/data counterparts on technical design documents. \
+  During this time, I discovered my passion for uniting and accelerating teams which led me to create widely used templates for retrospectives and domain-driven design exercises. \
+  I also led a 6 month course for support staff transitioning to engineering, technical training for 20 launch consultants to increase themes feature adoption, and a series of workshops for the Women at Shopify Employee Resource Group. \
+  All that on top of regular on-call shifts to improve system observability and resilliency because being a developer is so much more than writing code! \
+  However, I love that too and have summarized my coding contributions below.',
+  buttons: [
+    { logo: '/logos/figma.png', text: 'My retro templates', link: 'https://www.figma.com/board/QKX955drwMPSZnWqmzoGWq/Selena-s-Retro-Templates' },
+    { logo: '/logos/figma.png', text: 'My DDD templates', link: 'https://www.figma.com/board/wiKELhKIRMwcoeAbYewzcC/Selena-s-DDD-Templates' },
+  ],
 };
 
 const cardsContent = [
   {
-    title: 'Card 1',
-    text: 'TBA',
-    image: '/memories/wrap.png',
-    date: 'Aug 2025',
-    button: { logo: '/logos/github.png', text: 'TBA', link: 'https://github.com/SelenaJL' },
+    title: 'Shopify',
+    text: 'As a senior software developer, I architected and built e-commerce features like a centralized notification platform and dynamically contextualized storefronts using Ruby on Rails, GraphQL, MySQL, React, Kafka, and Kubernetes.',
+    image: '/memories/shopify-fulltime.jpg',
+    date: 'Sep 2019 - May 2025',
+    button: { logo: '/logos/shopify.png', text: 'Learn more', link: 'https://www.shopify.com/' },
   },
   {
-    title: 'Card 2',
-    text: 'This is a card that I can later add content to.',
-    image: '/memories/wrap.png',
-    date: 'Aug 2025',
-    button: { logo: '/logos/github.png', text: 'TBA', link: 'https://github.com/SelenaJL' },
+    title: 'LinkedIn',
+    text: 'As a software developer, I implemented REST APIs to aggregate code review metrics for internal engineering teams 5 times faster using Python and SQL Alchemy.',
+    image: '/memories/linkedin-intern.jpg',
+    date: 'Jan-Apr 2019',
+    button: { logo: '/logos/linkedin.png', text: 'Learn more', link: 'https://www.linkedin.com/' },
   },
   {
-    title: 'Card 3',
-    text: 'This is a card that I can later add content to.',
-    image: '/memories/wrap.png',
-    date: 'Aug 2025',
-    button: { logo: '/logos/github.png', text: 'TBA', link: 'https://github.com/SelenaJL' },
+    title: 'IBM Extreme Blue',
+    text: 'As a developer in the Extreme Blue program, I prototyped a real-time cognitive automation advisor using Python and Tensorflow, then pitched the user flow and business model to investors.',
+    image: '/memories/ibm-intern.jpg',
+    date: 'May-Aug 2018',
+    button: { logo: '/logos/ibm.png', text: 'Learn more', link: 'https://www.ibm.com/careers/blog/extreme-blue-ibms-leadership-program-for-future-tech-business-leaders' },
+  },
+  {
+    title: 'Rangle.io',
+    text: 'As a web developer at a consultancy, I designed and developed responsive component libraries for clients with web apps using Angular JS and Tailwind CSS. I also ran AI and IoT guilds.',
+    image: '/memories/rangle-intern.jpg',
+    date: 'Sep-Dec 2017',
+    button: { logo: '/logos/rangle.png', text: 'Learn more', link: 'https://rangle.io/' },
+  },
+  {
+    title: 'RLDatix',
+    text: 'As a software developer, I built navigation, search, and data export flows for a healthcare portal hosted on Salesforce using Apex and SOQL.',
+    image: '/memories/rl-intern.jpg',
+    date: 'Jan-Apr 2017',
+    button: { logo: '/logos/rl.png', text: 'Learn more', link: 'https://www.rldatix.com/' },
+  },
+  {
+    title: 'Influitive',
+    text: 'As an automation engineer, I created 200+ unit and integration tests to run automatically when deploying changes to a B2B marketing web app using JUnit and Selenium WebDriver.',
+    image: '/memories/influitive-intern.jpg',
+    date: 'May-Aug 2016',
+    button: { logo: '/logos/influitive.png', text: 'Learn more', link: 'https://influitive.com/' },
   },
 ];
 
