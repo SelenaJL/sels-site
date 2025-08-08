@@ -2,7 +2,8 @@ import { Page } from './Page';
 
 const mainCardContent = {
   title: 'Projects',
-  text: 'TBA',
+  text: 'I recently decided to start deploying my side projects for the world to see and use - this website is the first of many to come! \
+  I know first hand how intimidating it can be to publish something. Will it perform as expected? Will feedback be positive or negative? But we\'ll never know if we don\'t try.',
   buttons: [
     { logo: '/logos/github.png', text: 'See what I\'ve built', link: 'https://github.com/SelenaJL' },
   ],
@@ -10,22 +11,25 @@ const mainCardContent = {
 
 const cardsContent = [
   {
-    title: 'Wedding Planning App',
-    text: 'TBA',
-    image: '/cats/cat-1.png',
-    button: { logo: '/logos/github.png', text: 'TBA', link: 'https://github.com/SelenaJL' },
+    title: 'Our Day, Our Way',
+    text: 'After thoroughly enjoying the process of planning my own wedding, I felt inspired to create an all-in-one tool that would empower others to do the same! \
+    Features include vendor selection, budgeting, guest list management, day of coordination, and more.',
+    image: '/memories/wedding.jpg',
+    date: 'Coming Sep 2025',
   },
   {
-    title: 'My Swiftie Analysis',
-    text: 'TBA',
-    image: '/cats/cat-1.png',
-    button: { logo: '/logos/github.png', text: 'TBA', link: 'https://github.com/SelenaJL' },
+    title: 'Swiftie Stats',
+    text: 'As a massive fan of Taylor Swift, I\'m often asked for my favourite era. To properly answer this question, I created spreadsheets to rank songs and score each album. \
+    I then decided to turn this into an app that integrates with Spotify so everyone can be as nerdy as me!',
+    image: '/memories/eras-tour.jpg',
+    date: 'Coming Aug 2025',
   },
   {
-    title: 'Noise Pollution Detection',
-    text: 'TBA',
-    image: '/cats/cat-1.png',
-    button: { logo: '/logos/github.png', text: 'TBA', link: 'https://github.com/SelenaJL' },
+    title: 'City Vibes',
+    text: 'For Hack Western 2017, my team built a mobile app to collect data as well as a web app to classify different types of sounds and plot results on a heatmap. \
+    Our goal was to detect and visualize noise pollution in a city using Gradle, Flask, and React.',
+    image: '/memories/hackathon.jpg',
+    date: 'Nov 2017',
   },
 ];
 
