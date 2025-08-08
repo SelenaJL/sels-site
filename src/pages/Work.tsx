@@ -32,7 +32,7 @@ const cardsContent = [
   },
   {
     title: 'IBM Extreme Blue',
-    text: 'As a developer in the Extreme Blue program, I prototyped a real-time cognitive automation advisor using Python and Tensorflow, then pitched the user flow and business model to investors.',
+    text: 'As a developer in the Extreme Blue program, I prototyped a real-time cognitive automation advisor using Python and Tensorflow. We then pitched the UX flow and business model to investors Dragon\'s Den style.',
     image: '/memories/ibm-intern.jpg',
     date: 'May-Aug 2018',
     button: { logo: '/logos/ibm.png', text: 'Learn more', link: 'https://www.ibm.com/careers/blog/extreme-blue-ibms-leadership-program-for-future-tech-business-leaders' },
@@ -40,7 +40,7 @@ const cardsContent = [
   {
     title: 'Rangle.io',
     text: 'As a web developer at a consultancy, I designed and developed responsive component libraries for clients with web apps using Angular JS and Tailwind CSS. I also ran AI and IoT guilds.',
-    image: '/memories/rangle-intern.jpg',
+    image: '/memories/iot.jpg',
     date: 'Sep-Dec 2017',
     button: { logo: '/logos/rangle.png', text: 'Learn more', link: 'https://rangle.io/' },
   },

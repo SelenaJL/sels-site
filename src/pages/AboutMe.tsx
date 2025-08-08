@@ -14,7 +14,7 @@ const mainCardContent = {
   text: `You've landed on my personal website which I built to tell my story. \
   I'm a ${age} year old software developer who lives in Toronto, Canada with my husband and foster cats. \
   I've got a big heart and bigger personality which you can read about below. \
-  I've always welcomed tools for self-reflection because I believe that "to be loved is to be known" so the truest way to love myself is to continuously learn about myself. \
+  I believe that "to be loved is to be known" so the truest way to love myself is to continuously learn about myself. \
   From my education and work experience, to causes I care deeply about and volunteer for, to hobbies and projects that spark my joy... it's all here! \
   \nI hope you enjoy learning about me and reach out so I can have the honour of learning about you too.`,
   image: '/memories/profile.jpg',

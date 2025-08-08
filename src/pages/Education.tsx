@@ -31,7 +31,7 @@ const cardsContent = [
     button: { logo: '/logos/can-cwic.png', text: 'Learn more', link: 'https://cscan-infocan.ca/celebration-of-women-in-computing/' },
   },
   {
-    title: 'Women in Computer Science',
+    title: 'UW WiCS',
     text: 'I was an orientation leader, residence tour guide, and academic success speaker for students joining the University of Waterloo\'s Math faculty and computer science program.',
     image: '/memories/math.jpg',
     date: 'Sep 2016 & 2018',

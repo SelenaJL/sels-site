@@ -19,7 +19,7 @@ const cardsContent = [
   },
   {
     title: 'Million Reasons Run',
-    text: 'Every May for the past 4 years I\'ve challenged myself to partake in this incredible event where runners accross Canada raise money for local childrens hospitals. Thanks to the support of my family and friends, I\'ve run a total of 226km and raised $6643 for SickKids!',
+    text: 'Every May for the past 4 years I\'ve challenged myself to partake in this incredible event where runners accross Canada raise money for local childrens hospitals. Thanks to the support of my family and friends, I\'ve run a total of 226km and raised $6643 for SickKids!!!',
     image: '/memories/mrr-shirt.jpg',
   },
   {
