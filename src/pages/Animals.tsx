@@ -60,7 +60,7 @@ const cardsContent = [
   {
     image: '/cats/cat-12.jpg',
     title: 'Spritzer',
-    text: 'One of mama Daiquiri\'s kittens. Full of energy and always getting into trouble yet irresistible with his handsome Siamese coloring.',
+    text: 'One of mama Daiquiri\'s kittens. Full of energy and always getting into trouble yet irresistible with his handsome Siamese colouring.',
     date: 'Jul-Dec 2021',
   },
   {

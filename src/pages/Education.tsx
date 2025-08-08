@@ -3,7 +3,7 @@ import { Page } from './Page';
 const mainCardContent = {
   title: 'Education',
   text: 'As someone who loves learning, I\'m am thankful I had the opportunity to pursue my passions throughout school. \
-  I first graduated from Our Lady of Mount Carmel Secondary in 2015 as an Ontario Scholar along with the Computer Science award and an Advanced Placement English credit. \
+  I first graduated from Our Lady of Mount Carmel Secondary in 2015 with the Computer Science award and Advanced Placement English. \
   I then graduated from the University of Waterloo in 2020 with an Honours Bachelor of Computer Science and specialization in Human-Computer Interaction. \
   Below are some of the initiatives I participated in while studying.',
 };
@@ -46,7 +46,7 @@ const cardsContent = [
   },
   {
     title: 'Share Our Spirit',
-    text: 'After my school lost funding for this hip hop youth exchange program, I lead it for 3 years then passed on the torch and it\'s still active today!',
+    text: 'After my school lost funding for this hip hop youth exchange program, I lead it for 3 years then passed on the torch. It\'s still connecting singers, rappers, and dancers accross Ontario and Quebec to this day!',
     image: '/memories/sos.jpg',
     date: '2011-2015',
     button: { logo: '/logos/instagram.png', text: '@sosolmc', link: 'https://www.instagram.com/sosolmc/' },
